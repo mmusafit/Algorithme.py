@@ -9,7 +9,6 @@ def SalaireTotal(H1, H2, HoraireDebout, MontantSalaire, HoraireFin):
         SalaireTotale = MontantSalaire * 15 / 100
         print(HoraireNormale)
         print(SalaireTotale)
-    return SalaireTotale
 #test de la fonction Salaire Totale Heure
 H1 =int(input("Entrez la valuer de l horaire1."))
 H2 =int(input("Entrez la valuer de l horaire2:"))
